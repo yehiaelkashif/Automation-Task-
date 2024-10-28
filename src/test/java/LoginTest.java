@@ -13,7 +13,6 @@ public class LoginTest {
     @BeforeClass
     public void setUp() {
         // Set the path of the WebDriver
-        System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
     }
